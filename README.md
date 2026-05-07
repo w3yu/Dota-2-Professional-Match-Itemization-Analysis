@@ -63,7 +63,7 @@ To address bias:
 bkb_impact = win_rate_with_bkb - win_rate_without_bkb
 
 We also filtered:
-- >= 10 samples for both groups
+- $\geq$ 10 samples for both groups
 
 This isolates relative improvement instead of absolute strength.
 
@@ -87,6 +87,7 @@ Beyond BKB, we analyzed:
 
 - Exploded item purchase dictionary
 - Computed item-level win rates
+- filtered out recipe items
 
 ---
 
