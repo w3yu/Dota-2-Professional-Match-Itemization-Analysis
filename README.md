@@ -11,9 +11,16 @@ Rather than looking at global win rates, we focus on context-aware analysis, exa
 ---
 
 ## Data
-- Source: OpenDota match dataset  
-- Scale: Thousands to millions of player-match records  
-- Granularity: Player-level (one row per hero per match)
+
+The raw CSV files are not included in this repository because they exceed GitHub's file size limit.
+
+Dataset source:
+https://www.kaggle.com/datasets/bwandowando/dota-2-pro-league-matches-2023
+
+Required files:
+- 202603/players.csv
+- 202603/picks_bans.csv
+- 202603/radiant_gold_adv.csv
 
 ---
 
